@@ -1,8 +1,14 @@
 from django.shortcuts import render
 
 # Create your views here.
-from django.http import HttpResponse
-
-
 def index(request):
-    return HttpResponse("伺服器網頁測試中...請稍後")
+    return render(request,'index.html',{})
+
+def about(request):
+    return render(request,'about.html',{})
+
+def news(request):
+    return render(request,'news.html',{})
+
+def donation(request):
+    return render(request,'donation.html',{})

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" >
+          <img src="{%static 'web/bankaccount.webp'%}" class="card-img-top" alt="銀行帳戶">
+          <div class="card-body">
+            <h5 class="card-title">銀行匯款資訊</h5>
+            <p class="card-text">銀行:陽信銀行中壢分行<br>戶名:財團法人亮詮公益慈善基金會<br>帳號:07945-000063-0</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" >
+          <img src="{%static 'web/atm.webp'%}" class="card-img-top" alt="ATM匯款">
+          <div class="card-body">
+            <h5 class="card-title">ATM轉帳資訊</h5>
+            <p class="card-text">銀行代號:1080661<br>帳號:07945-000063-0</p>
+          </div>
+      </div>
+    </div>
+    
+    {% endblock  %}

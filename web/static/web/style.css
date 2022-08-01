@@ -1,0 +1,9 @@
+h1 {
+    color:bisque;
+}
+  wrapper {
+    min-height: 100%;
+  }
+  .content {
+    padding-bottom: 50px; /*隨footer高度需做調整*/
+  }
