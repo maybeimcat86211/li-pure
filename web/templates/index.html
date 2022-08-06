@@ -1,15 +1,98 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-    <h1>首頁</h1>
-    <p>
-        首頁目前還在規劃中，不便之處敬請見諒。
-        </p>
-        
-        
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    </div>
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="{% static 'web/two.webp' %}" alt="合照" class="img-fluid">
+        </div>
+            <div class="carousel-item">
+                <img src="{% static 'web/third.webp' %}" alt="側寫" class="img-fluid">
+            </div>
+    </div>
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+</div>
+<div class="clearfix mt-5">
+    <div class="row  justify-content-center">
+		<div class="col-xl-4 col-md-4 p-1  text-center">
+            <a href="https://www.thn-buurtzorg.com/?mode=homecare" data-lightbox="gallery-item" class="grid-item"><img class="rounded-5" src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="圖一"></a>								
+    </div>
+            <div class="col-xl-4 col-md-4 p-1  text-center">
+                <a href="https://www.thn-buurtzorg.com/?mode=localcare" data-lightbox="gallery-item" class="grid-item"><img class="rounded-5" src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="圖二"></a>								
+            </div>
+                <div class="col-xl-4 col-md-4 p-1  text-center">
+                    <a href="https://www.thn-buurtzorg.com/?mode=carelibrary" data-lightbox="gallery-item" class="grid-item"><img class="rounded-5" src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="圖三"></a>								
+                </div>
+    </div>
+</div>
+<div class="col-12 text-center">							
+    <div class="card-text ">
+        <div class="card-text cont">
+            <p>
+                <strong>
+                <span style="color:#2980b9">
+                    <span style="font-size:22px">
+                        「亮詮基金會」以洋蔥模式打造「以人為本」照護理念
+                    </span>
+                </span>
+                </strong>
+            <br>
+            <span style="font-size:18px">鄰里照顧，融合在地文化的照顧模式，獨創一套專屬亞洲華人的照護模式<br>
+                以引領台灣居家照顧產業進行創新改革，透過「鄰里照顧，讓長者自主、尊嚴在家養老。」為使命。
+            </span>
+            </p>
+        </div>
+    </div>						
+</div>
 
+<div class="col-12 text-center">
+    <img class="img-fluid" src="https://cdn.pixabay.com/photo/2022/07/26/19/09/spotted-owlet-7346555_1280.jpg" alt="洋蔥照護-圖片"alt="Responsive image">  
+</div>
 
+<div class="clearfix mt-3"></div>
+    <div>
+        <div class="col-12">
+            <div class="card border-0 bg-light">
+                <div class="row">
+                    <div class="col-md-6 p-0">
+                        <img src="https://cdn.pixabay.com/photo/2022/07/26/19/09/spotted-owlet-7346555_1280.jpg" class="rounded-start" style="width:100%" alt="專屬亞洲華人的照護模式">
+                    </div>
+                    <div class="col-md-6 px-2">
+                        <div class="card-body">
+                            <h3 class="card-title">專屬亞洲華人的照護模式</h3>
+                            <div class="card-text mb-2"><p>以引領台灣居家照顧產業進行創新改革為使命。透過「鄰里照顧，讓長者自主、尊嚴在家養老。」為使命。<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="clearfix mm17" >
+	<div class="section m-0 ">
+		<div class="container center clearfix">
+			<div class="mb-0">
+				<h2 style="text-align:center">亮詮基金會形象影片</h2>
+			</div>
+                    <div class="mx-auto bottommargin " style="width:80%" >
+						<iframe src="https://www.youtube.com/embed/oirgu1Fe8fA" width="500" height="264" allow="autoplay; fullscreen" title="亮詮形象影片" allowfullscreen></iframe>
+					</div>
+		</div>
+	</div>
+</div>
 
+	
 
 
 

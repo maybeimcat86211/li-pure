@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 python-3.9.13
-=======
-python-3.9.13
->>>>>>> 344d104 (test for the indexpage)
