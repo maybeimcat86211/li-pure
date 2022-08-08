@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <title>亮詮居家長照機構</title>
+    <head>
+        <style>
+            figure {
+        padding: 4px;
+        margin: auto;
+    }
+    #subnav {
+        text-align: center;
+        background:#FFB7C5;
+        padding: 25px;
+    }
+    #subnav a span{
+        font-size: 1rem;
+    }
+    #subnav label{
+        color:#fff;
+    }
+    #subnav a:hover{
+        background-color: #fff;
+        color: #FFB7C5;
+    }
+    #subnav a ,.subnav{
+        background-color: #FFB7C5;
+        color: #fff;
+    }
+    #care h3,#care p{
+        width: 170px;
+        border-right: #4B8CC5 3px solid;border-left:#4B8CC5 3px solid;
+        text-align: center;
+    }
+    #care p{
+        font-size:12px;
+        font-weight:300;
+    }
+    #QA h3,#QA p{
+        width: 170px;
+        border-right: #4B8CC5 3px solid;border-left:#4B8CC5 3px solid;
+        text-align: center;
+    }
+    #QA p{
+        font-size:12px;
+        font-weight:300;
+    }
+    .card{
+        margin-top: 10px;
+    }
+        </style>
+    </head>
+    <body>
+        
+            <figure>
+                <img class="rounded" src="https://www.thn-buurtzorg.com/admin//archive//Content/cover/152.jpg?v=1659928757" alt="abotus 大圖" style="width:100%">
+            </figure>
+        
+        <div id="subnav" class="clearfix center nav">
+            <div class="container" class="button m-0">
+                <a href="#company">
+                    <span>照顧百科</span>
+                </a>
+                <label class>|</label>
+                <a href="#Q&A">
+                    <span>常見QA</span>
+                </a>
+            </div>
+        </div>
+        <div id="care" class="clearfix center ">
+            <div class="container ">
+                <div id="careInfo" class="pt-5">
+                    <h3 class="m-auto">照護百科</h3>
+                    <p class="m-auto">Care Info</p>
+            </div>				
+        </div>
+        </div>
+        <div id="Q&A" class="container bg-light">
+        <div id="QA" class="clearfix center ">
+            <div class="container ">
+                <div id="QAInfo" class="pt-5">
+                    <h3 class="m-auto">常見問題</h3>
+                    <p class="m-auto">QA</p>
+            </div>				
+        </div>
+        </div>
+        <div class="container mt-3" style="text-align: center;">
+            <h2>提供專業的銀髮族居家照顧服務，服務對象包括：</h2>
+            <p>一般生活照顧、慢性或急性的疾病照顧、失智症照顧、癌症照顧、安寧居家照顧……等。</p>
+            <div id="accordion">
+              <div class="card bg-primary text-white">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                    <span style="color: #fff;">Q : 長照是什麼？</span>
+                  </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                  <div class="card-body">
+                    <span>長期照顧是指提供長期無法自理的病患，各式各樣醫療與非醫療的服務，可以在家裡、社區、護理之家或是長照中心等地點執行。</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-success text-white">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    <span style="color: #fff;">Q : 常聽到許多人說長照2.0有分「ABC」三級？那到底是什麼意思？</span>
+                </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <span>Ａ代表社區整合型服務中心:主要職責在擬定長者的照顧計畫，再媒合社區中的B據點與C據點提供實際的服務<br>
+                        Ｂ是複合型服務中心：主要提供如居家服務、日間照顧、家庭托顧、居家護理、社區及居家復健、復能，甚至是家庭照顧者的喘息服務等。<br>
+                        Ｃ則是巷弄長照站：所服務的對象，主要是健康、亞健康，或屬於失智、失能前期的長者，<br>
+                        就近獲得特約社區提供社會參與、健康促進、共餐服務、預防及延緩失能等服務。<br>
+                        目前以上的服務，亮詮居家都有提供唷！！若有需要歡迎來電洽詢： 03 466 6621</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-info text-white">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    <span style="color: #fff;">Q : 長照2.0服務對象有誰？我怎麼知道我家人是否可以申請呢？</span>
+                  </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <span>只要您的家人符合以下資格，便能進一步查詢相關服務：<br>
+                        1.失能身心障礙者<br>
+                        2.55歲以上失能原住民<br>
+                        3.50歲以上失智症患者<br>
+                        4.日常生活需要他人協助的獨居老人或衰弱老人<br>
+                        5.65歲以上失能老人<br>
+                        但因各縣市仍有些不同，建議您可撥打長照專線查詢>>長照2.0專線：1966</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-warning text-white">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#collapseFour">
+                    <span style="color: #fff;">Q 申請長照2.0服務後，長照費用怎麼算，有補助嗎？</span>
+                  </a>
+                </div>
+                <div id="collapseFour" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <span>長照2.0依據失能程度，將長照等級分為8級，依照等級提供不同額度的補助金額，<br>
+                        等級越高補助金額也會越高，以下整理長照補助條件、金額及申請辦法
+                        <figure>
+                            <img class="rounded" src="https://www.thn-buurtzorg.com/admin/archive/files/image4-36-768x432.jpg" alt="abotus 大圖" style="width:100%">
+                        </figure>
+                    </span>
+                    <span>(圖片來源：衛福部長照專區)<br>
+                        p.s.長照2.0針對家庭部分，若家中需長期受照顧者，是居住於長照住宿式機構服務的使用者，就不能申請這4種補助。</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card card bg-secondary text-white">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#collapseFive">
+                    <span style="color: #fff;">Q : 長照2.0補助項目有哪些？</span>
+                  </a>
+                </div>
+                <div id="collapseFive" class="collapse" data-parent="#accordion">
+                  <div class="card-body" style="text-align: left;">
+                    <span><strong>主要補助項目分為4大項，依據失能等級及收入條件提供不同補助金額。</strong><br>
+                        <strong>長照2.0補助1：照顧及專業服務</strong>
+                        1級失能者不提供補助，2～8級分別補助10,020元/月～36,180元/月，低收入戶全額給付；中低收入部分負擔5％；一般戶16％。<br>
+                        <strong>長照2.0補助2：交通接送給付</strong><br>
+                        僅限4級以上失能者，依據交通里程給予1,680元～2,400元補助，低收入戶全免；中低收入部分負擔7%～10%；一般戶部分負擔21%～30%。<br>
+                        <strong>長照2.0補助3：輔具服務與居家無障礙環境改善</strong><br>
+                        以3年為單位，每次最多補助40,000元，低收入全額給付；中低收入部分負擔10％；一般戶部分負擔30％。<br>
+                        <strong>長照2.0補助4：喘息服務</strong><br>
+                        2～6級補助32,340元/年，7～8級補助48,510元/年，低收入全額給付；中低收入須部分負擔5％；一般戶部分負擔16％。
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-danger text-white">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#collapseSix">
+                    <span style="color: #fff;">Q : 長照2.0補助怎麼申請？又申請流程是怎樣進行？</span>
+                  </a>
+                </div>
+                <div id="collapseSix" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <span>撥打長照專線1966，照管中心會派遣照管專員到府評估，判斷長照需求者的失能等級，並量身訂做長照計畫，
+                        協助您找到最適合的長照資源。當然，您也可以提供資料給亮詮居家，讓我們協助您進行後續處理！
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+    </body>
+</html>
