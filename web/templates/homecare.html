@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    figure {
+        padding: 4px;
+        margin: auto;
+    }
+    #subnav {
+        text-align: center;
+        background:#FFB7C5;
+        padding: 25px;
+    }
+    #subnav a span{
+        font-size: 1rem;
+    }
+    #subnav label{
+        color:#fff;
+    }
+    #subnav a:hover{
+        background-color: #fff;
+        color: #FFB7C5;
+    }
+    #subnav a ,.subnav{
+        background-color: #FFB7C5;
+        color: #fff;
+    }
+    #homecare h3,#homecare p{
+      width: 170px;
+      border-right: #4B8CC5 3px solid;border-left:#4B8CC5 3px solid;
+      text-align: center;
+  }
+  #homecare p{
+      font-size:12px;
+      font-weight:300;
+  }
+  #sf h3,#sf p{
+    width: 170px;
+    border-right: #4B8CC5 3px solid;border-left:#4B8CC5 3px solid;
+    text-align: center;
+}
+#sf p{
+    font-size:12px;
+    font-weight:300;
+}
+  </style>
+</head>
+<title>亮詮居家長照機構</title>
+    <body>
+        <figure>
+            <img class="rounded" src="https://thn-buurtzorg.com/admin//archive//Content/cover/113.jpg?v=1660034922" alt="abotus 大圖" style="width:100%">
+        </figure>
+        <div id="subnav" class="clearfix center nav">
+            <div class="container" class="button m-0">
+                <a href="#homecare">
+                    <span>服務介紹</span>
+                </a>
+                <label class>|</label>
+                <a href="#service">
+                    <span>服務特色</span>
+                </a>
+                <label class>|</label>
+                <a href="#brand">
+                    <span>申請流程</span>
+                </a>
+                <label class>|</label>
+                <a href="#timeline">
+                    <span>服務模式</span>
+                </a>
+                <label class>|</label>
+            </div>
+        </div>
+
+        <div id="homecare" class="clearfix center ">
+          <div class="container ">
+              <div id="homecareInfo" class="pt-5">
+                  <h3 class="m-auto">服務介紹</h3>
+                  <p class="m-auto">Business Concept</p>
+          </div>
+        <div class="container mt-3">
+          <!-- Nav pills -->
+          <ul class="nav nav-pills justify-content-center" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#home">居家照顧</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu1">居家護理</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#menu2">居家復能</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content">
+          <div id="home" class="container tab-pane active"><br>
+            <div class="row">
+              <div class="col-md-6 p-3">
+                <figure>
+                  <img class="rounded" src="https://thn-buurtzorg.com/admin//archive//Content/cover/142.jpg?v=1660036180" alt="abotus 大圖" style="width:100%">
+              </figure>
+          </div>
+          <div class="col-md-6 px-2">
+            <h3>居家照顧</h3>
+            <ul>
+              <li>協助備餐 / 煮食</li>
+              <li>居家安全</li>
+              <li>陪同就醫</li>
+              <li>協助沐浴及身體清潔</li>
+              <li>皮膚照顧</li>
+              <li>手部 / 足部按摩照顧</li>
+              <li>生命徵象測量（體溫 / 血壓 / 血糖）</li>
+              <li>被動肢體關節運動</li>
+              <li>健康促進活動安排</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+          <div id="menu1" class="container tab-pane fade"><br>
+            <div class="row">
+              <div class="col-md-6 p-3">
+                <figure>
+                  <img class="rounded" src="https://thn-buurtzorg.com/admin//archive//Content/cover/143.jpg?v=1660036180" alt="abotus 大圖" style="width:100%">
+              </figure>
+          </div>
+          <div class="col-md-6 px-2">
+            <h3>居家護理</h3>
+            <ul>
+              <li>一般身體檢查及評估</li>
+              <li>胃管、尿管、氣切更換及護理</li>
+              <li>傷口、造口照護及相關護理指導</li>
+              <li>傷口負壓治療換藥</li>
+              <li>導尿、拔除導尿管之膀胱訓練</li>
+              <li>皮下、靜脈注射並代採檢體</li>
+              <li>灌腸及糞便填塞處理</li>
+              <li>居家安寧照護與指導</li>
+              <li>其他護理需求與指導</li>
+            </ul>
+          </div>
+          </div>
+          </div>
+          <div id="menu2" class="container tab-pane fade"><br>
+            <div class="row">
+              <div class="col-md-6 p-3">
+                <figure>
+                  <img class="rounded" src="https://thn-buurtzorg.com/admin//archive//Content/cover/187.jpg?v=1660036180" alt="abotus 大圖" style="width:100%">
+              </figure>
+          </div>
+          <div class="col-md-6 px-2">
+            <h3>居家復能</h3>
+            <ul>
+              <li>關節活動度運動與訓練</li>
+              <li>肌力/耐力/平衡活動與訓練</li>
+              <li>出院/術後功能性回復訓練</li>
+              <li>日常生活功能與認知知覺訓練</li>
+              <li>吞嚥障礙之評估與訓練</li>
+              <li>輔具/環境評估與指導</li>
+              <li>中風患者動作誘發訓練</li>
+              <li>復能相關照顧指導</li>
+            </ul>
+          </div>
+          </div>
+          </div>
+
+        </div>
+        
+        <div id="sf" class="clearfix center ">
+          <div class="container ">
+              <div id="sfInfo" class="pt-5">
+                  <h3 class="m-auto">服務特色</h3>
+                  <p class="m-auto">Service Features</p>
+          </div>
+
+          <div class="container mb-3">
+            <div class="row">
+              <div class="col-md-4 my-5 center">
+                  <div class="">
+                    <figure>
+                      <img class="rounded" src="https://thn-buurtzorg.com/admin//archive//Content/cover/139.png?v=1660058515" alt="小圖" width:"90">
+                    </figure>
+                  </div>
+                  <div class="">
+                    <h4 class="mb-0">專業的醫事及居家照服員</h4>
+                    <div class="txt">
+                      <p>嚴謹的篩選與培訓制度</p>
+                      <p>最完整專業的照顧人力</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+      
+
+    </body>
+
+</html>
