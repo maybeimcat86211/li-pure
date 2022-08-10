@@ -11,8 +11,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type='text/css' href="{%static 'web/style.css'%}">
-    <script src="{%static 'web/back_to_top.js'%}"></script>
+    <script src="{%static 'web/backToTop.js'%}"></script>
     <title>li_pure</title>
+    <style>
+      #btn-back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+    }
+      </style>
       </head>
     {% include 'navbar.html' %}
   <body>
@@ -22,7 +30,13 @@
             <h1>basepage</h1>
         {% endblock content %}
     </div>
-    
+    <button
+        type="button"
+        class="btn btn-light btn-floating btn-lg"
+        id="btn-back-to-top"
+    >
+  <img src="https://cdn-icons.flaticon.com/png/128/608/premium/608336.png?token=exp=1660120858~hmac=268ad1c4a26050976beaa51221af557c" style="width:20px;height:20px;">
+</button>
   </body>
 
   {% include 'footer.html' %}
