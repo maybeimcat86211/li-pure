@@ -7,4 +7,5 @@ urlpatterns = [
     path('QAlibrary',views.QAlibrary,name='QAlibrary'),
     path('donation',views.donation,name='donation'),
     path('homecare',views.homecare,name='homecare'),
+    path('li_class',views.li_class,name='li_class'),
     ]

@@ -15,3 +15,6 @@ def donation(request):
 
 def QAlibrary(request):
     return render(request,'QAlibrary.html',{})
+
+def li_class(request):
+    return render(request,'li_class.html',{})
