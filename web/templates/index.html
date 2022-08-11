@@ -1,6 +1,22 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
+<script src="{%static 'web/backToTop.js'%}"></script>
+<style>
+    #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+    </style>
+    <button
+    type="button"
+    class="btn btn-light btn-floating btn-lg"
+    id="btn-back-to-top"
+>
+<img src="https://cdn-icons.flaticon.com/png/128/608/premium/608336.png?token=exp=1660120858~hmac=268ad1c4a26050976beaa51221af557c" style="width:20px;height:20px;">
+</button>
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -88,13 +104,4 @@
     <div class="iframe-container mt-3">
         <iframe width="888" height="469" src="https://www.youtube.com/embed/1KEo07Y55Gs" title="台灣居護｜ONE-CARE居家照護的最好選擇" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-	
-
-
-
-
-
-
-
-
 {% endblock content %}
