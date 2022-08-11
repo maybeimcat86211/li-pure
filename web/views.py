@@ -4,11 +4,14 @@ from django.shortcuts import render
 def index(request):
     return render(request,'index.html',{})
 
-def about(request):
-    return render(request,'about.html',{})
+def aboutus(request):
+    return render(request,'aboutus.html',{})
 
-def news(request):
-    return render(request,'news.html',{})
+def homecare(request):
+    return render(request,'homecare.html',{})
 
 def donation(request):
     return render(request,'donation.html',{})
+
+def QAlibrary(request):
+    return render(request,'QAlibrary.html',{})
