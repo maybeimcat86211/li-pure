@@ -4,6 +4,8 @@ from django.utils import timezone
 
 class Location(models.Model):
     name = models.CharField(max_length=255)  #位置名稱
+    def __str__(self):
+        return self.name #顯示地點位置
 
 class Post(models.Model):
     subject = models.CharField(max_length=255)  #標題
