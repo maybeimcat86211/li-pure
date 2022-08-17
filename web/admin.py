@@ -7,5 +7,5 @@ class LocationAdmin(admin.ModelAdmin):
 class PostAdmin(admin.ModelAdmin):
     list_display = ('subject', 'content', 'author', 'location')
 
-admin.site.register(Location)  #註冊至Administration(管理員後台)
+admin.site.register(Location,LocationAdmin)  #註冊至Administration(管理員後台)
 admin.site.register(Post, PostAdmin)  #註冊至Administration(管理員後台)
